@@ -13,5 +13,5 @@ dist: xenial
 #  - sudo apt-get update
 
 script:
-  - echo main.c
+  - cat main.c
   - make
