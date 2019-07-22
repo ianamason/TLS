@@ -2,5 +2,5 @@ __thread int test;
 
 int main (int argc, char *argv[]) {
   test = argc;
-  return 0;
+  return test;
 }
