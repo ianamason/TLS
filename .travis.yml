@@ -1,0 +1,17 @@
+language: c
+
+compiler:
+  - gcc
+  - clang
+
+sudo: required
+
+dist: xenial
+
+# command to install dependencies
+install:
+  - sudo apt-get update
+
+script:
+  - cd build
+  - make
