@@ -9,8 +9,9 @@ sudo: required
 dist: xenial
 
 # command to install dependencies
-install:
-  - sudo apt-get update
+#install:
+#  - sudo apt-get update
 
 script:
+  - echo main.c
   - make
