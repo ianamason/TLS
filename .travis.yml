@@ -13,5 +13,4 @@ install:
   - sudo apt-get update
 
 script:
-  - cd build
   - make
